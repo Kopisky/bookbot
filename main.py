@@ -2,7 +2,6 @@ from stats import get_num_words, get_chars_dict, sort_on
 import sys
 
 def main():
-    program = sys.argv[0]
     if len(sys.argv) > 1:
         book_path = sys.argv[1]
     else:
